@@ -54,8 +54,8 @@ Craft Commerce 1.2 Documentation
 - [Address Model](en/address-model.md)
   - [Country Model](en/country-model.md)
   - [State Model](en/state-model.md)
--[Customer Model](en/customer-model.md)
--[Payment Form Model](en/payment-form-model.md)
+- [Customer Model](en/customer-model.md)
+- [Payment Form Model](en/payment-form-model.md)
 
 ## Developers
 
