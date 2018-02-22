@@ -21,3 +21,4 @@ Craft Commerce 1.2 Documentation
 - [Order](en/order.md)
 - [Products](en/products.md)
 - [Product Types](en/product-types.md)
+- [Customers](en/customers.md)
