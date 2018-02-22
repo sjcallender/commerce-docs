@@ -68,7 +68,7 @@ Craft Commerce 1.2 Documentation
 
 ## Template guides
 
-- [Available Variables](en/available-variable.md)
+- [Available Variables](en/available-variables.md)
 - [Add to Cart](en/add-to-cart.md)
 - [Update Cart Addresses](en/update-cart-addresses.md)
 - [Customer Address Management](en/customer-address-management.md)
