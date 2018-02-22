@@ -32,7 +32,7 @@ Craft Commerce 1.2 Documentation
 
 ## Payment Gateways
 
-- [Payment Gateways](en/payment-currencies.md)
+- [Payment Gateways](en/payment-gateways.md)
 
 ## Getting Elements
 
