@@ -18,7 +18,7 @@ Craft Commerce 1.2 Documentation
 ## Core Concepts
 
 - [Cart](en/cart.md)
-- [Order](en/order.md)
+- [Orders](en/orders.md)
 - [Products](en/products.md)
 - [Product Types](en/product-types.md)
 - [Customers](en/customers.md)
