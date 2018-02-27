@@ -1,4 +1,4 @@
-Craft Commerce 1.2 Documentation
+Craft Commerce 2 Documentation
 ================================
 
 ## Introduction
@@ -9,7 +9,7 @@ Craft Commerce 1.2 Documentation
 
 - [Server Requirements](en/server-requirements.md)
 - [Installation](en/installation.md)
-- [Updating](en/updating.md)
+- [Changes in Commerce 2](en/changes-in-commerce-2.md)
 
 ## Configuration
 
@@ -36,10 +36,11 @@ Craft Commerce 1.2 Documentation
 
 ## Getting Elements
 
-- [craft.commerce.orders](en/craft-commerce-orders.md)
-- [craft.commerce.cart](en/craft-commerce-cart.md)
-- [craft.commerce.products](en/craft-commerce-products.md)
-- [craft.commerce.variants](en/craft-commerce-variants.md)
+- [craft.orders](en/craft-orders.md)
+- [craft.products](en/craft-products.md)
+- [craft.variants](en/craft-variants.md)
+- [craft.subscriptions](en/craft-subscriptions.md)
+- [craft.commerce.carts.cart](en/craft-commerce-carts-cart.md)
 
 ## Models
 

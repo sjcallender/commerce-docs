@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8206bb7a-df3c-4f5f-a4e8-0c9b51c77236" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commerce-docs.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/en/changes-in-commerce-2.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/en/craft-subscriptions.md" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/en/add-to-cart.md" afterPath="$PROJECT_DIR$/en/add-to-cart.md" />
+      <change beforePath="$PROJECT_DIR$/en/available-variables.md" afterPath="$PROJECT_DIR$/en/available-variables.md" />
+      <change beforePath="$PROJECT_DIR$/en/cart.md" afterPath="$PROJECT_DIR$/en/cart.md" />
+      <change beforePath="$PROJECT_DIR$/en/craft-commerce-cart.md" afterPath="$PROJECT_DIR$/en/craft-commerce-carts-cart.md" />
+      <change beforePath="$PROJECT_DIR$/en/craft-commerce-orders.md" afterPath="$PROJECT_DIR$/en/craft-orders.md" />
+      <change beforePath="$PROJECT_DIR$/en/craft-commerce-products.md" afterPath="$PROJECT_DIR$/en/craft-products.md" />
+      <change beforePath="$PROJECT_DIR$/en/craft-commerce-variants.md" afterPath="$PROJECT_DIR$/en/craft-variants.md" />
+      <change beforePath="$PROJECT_DIR$/en/customer-model.md" afterPath="$PROJECT_DIR$/en/customer-model.md" />
+      <change beforePath="$PROJECT_DIR$/en/order-model.md" afterPath="$PROJECT_DIR$/en/order-model.md" />
+      <change beforePath="$PROJECT_DIR$/en/payment-gateways.md" afterPath="$PROJECT_DIR$/en/payment-gateways.md" />
+      <change beforePath="$PROJECT_DIR$/en/product-types.md" afterPath="$PROJECT_DIR$/en/product-types.md" />
+      <change beforePath="$PROJECT_DIR$/en/products-fields.md" afterPath="$PROJECT_DIR$/en/products-fields.md" />
+      <change beforePath="$PROJECT_DIR$/en/server-requirements.md" afterPath="$PROJECT_DIR$/en/server-requirements.md" />
+      <change beforePath="$PROJECT_DIR$/en/untitled.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/en/updating.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/en/upgrading-from-market.md" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="craft-products.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/craft-products.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="575">
+                <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+                <folding>
+                  <marker date="1519697854961" expanded="true" signature="229:285" ph="{% set products = craft.products.type('normal').find() ...%}" />
+                  <marker date="1519697854961" expanded="true" signature="287:437" ph="{% for product in products ...%}" />
+                  <marker date="1519697854961" expanded="true" signature="319:424" ph="{% for variant in product.variants ...%}" />
+                  <marker date="1519697854961" expanded="true" signature="1838:1917" ph="{% set products = craft.products.type('tshirt').hasVariant({ color: 'red' }) ...%}" />
+                  <marker date="1519697854961" expanded="true" signature="2301:2381" ph="{% set products = craft.products({&#10;  hasVariant: {&#10;    hasStock: true&#10;  },&#10;}) ...%}" />
+                  <marker date="1519697854961" expanded="true" signature="2527:2584" ph="{% set products = craft.products({&#10;  hasSales: true&#10;}) ...%}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="craft-variants.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/craft-variants.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+                <folding>
+                  <marker date="1519697874195" expanded="true" signature="373:423" ph="{% set variants = craft.variants.id(8376).first() ...%}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer-model.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/customer-model.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="327">
+                <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment-gateways.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/payment-gateways.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server-requirements.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/en/server-requirements.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="46">
+                <caret line="2" column="124" lean-forward="false" selection-start-line="2" selection-start-column="124" selection-end-line="2" selection-end-column="124" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>craft.commerce.orders</find>
+      <find>craft.commerce.products</find>
+      <find>craft-commerce-products</find>
+      <find>craft-commerce-orders</find>
+      <find>craft.commerce.cart</find>
+      <find>craft.commerce.getCa</find>
+      <find>craft.commerce.getCart()</find>
+      <find>craft-commerce-carts-cart</find>
+      <find>craft-commerce-cart</find>
+      <find>http://buildwithcraft.com</find>
+      <find>.find()</find>
+      <find>.first()</find>
+      <find>product typ</find>
+      <find>http://craftcms.com</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>craft.orders</replace>
+      <replace>craft.products</replace>
+      <replace>craft-products</replace>
+      <replace>craft-orders</replace>
+      <replace>craft.commerce.carts.cart</replace>
+      <replace>craft-commerce-carts-cart</replace>
+      <replace>http://craftcms.com</replace>
+      <replace>.all()</replace>
+      <replace>.one()</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/en/craft-commerce-cart.md" />
+        <option value="$PROJECT_DIR$/en/cart.md" />
+        <option value="$PROJECT_DIR$/en/craft-orders.md" />
+        <option value="$PROJECT_DIR$/en/available-variables.md" />
+        <option value="$PROJECT_DIR$/en/updating.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/en/craft-products.md" />
+        <option value="$PROJECT_DIR$/en/craft-variants.md" />
+        <option value="$PROJECT_DIR$/en/customer-model.md" />
+        <option value="$PROJECT_DIR$/en/payment-gateways.md" />
+        <option value="$PROJECT_DIR$/en/server-requirements.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="262" />
+    <option name="y" value="22" />
+    <option name="width" value="2298" />
+    <option name="height" value="1418" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="commerce-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commerce-docs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="commerce-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commerce-docs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8206bb7a-df3c-4f5f-a4e8-0c9b51c77236" name="Default" comment="" />
+      <created>1519696395756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519696395756</updated>
+      <workItem from="1519696397564" duration="1602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1602000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="2560" height="1418" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22421876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/en/order-status-emails.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/craft-subscriptions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/craft-commerce-carts-cart.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/craft-orders.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <folding>
+              <marker date="1519696905332" expanded="true" signature="222:259" ph="{% set orders = craft.orders.all() ...%}" />
+              <marker date="1519696905332" expanded="true" signature="261:351" ph="{% for order in orders ...%}" />
+              <marker date="1519696905332" expanded="true" signature="2708:3000" ph="{% if currentUser ...%}" />
+              <marker date="1519696905332" expanded="true" signature="2733:2829" ph="{% set order = craft.orders.user(currentUser).hasPurchasables([product.defaultVariant]).first() ...%}" />
+              <marker date="1519696905332" expanded="true" signature="2834:2988" ph="{% if order ...%}" />
+              <marker date="1519696905332" expanded="true" signature="3018:3085" ph="{% set  orders = craft.orders({&#10;  hasPurchasables: [32,34,35]&#10;}) ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/cart.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="253">
+            <caret line="11" column="107" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="113" />
+            <folding>
+              <marker date="1519696742429" expanded="true" signature="711:753" ph="{% set cart = craft.commerce.carts.cart ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/available-variables.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <folding>
+              <marker date="1519697032900" expanded="true" signature="164:208" ph="{% set settings = craft.commerce.settings ...%}" />
+              <marker date="1519697032900" expanded="true" signature="580:703" ph="{% for id, countryName in craft.commerce.countriesList ...%}" />
+              <marker date="1519697032900" expanded="true" signature="835:955" ph="{% for country in craft.commerce.countries ...%}" />
+              <marker date="1519697032900" expanded="true" signature="1178:1470" ph="{% for countryId, states in craft.commerce.statesArray ...%}" />
+              <marker date="1519697032900" expanded="true" signature="1303:1443" ph="{% for stateId, stateName in craft.commerce.statesArray[countryId] ...%}" />
+              <marker date="1519697032900" expanded="true" signature="1583:1698" ph="{% for states in craft.commerce.countries ...%}" />
+              <marker date="1519697032900" expanded="true" signature="1936:2280" ph="{% for handle, method in craft.commerce.availableShippingMethods ...%}" />
+              <marker date="1519697032900" expanded="true" signature="2102:2164" ph="{% if handle == cart.shippingMethodHandle ...%}" />
+              <marker date="1519697032900" expanded="true" signature="2384:2486" ph="{% if not craft.commerce.paymentMethods|length ...%}" />
+              <marker date="1519697032900" expanded="true" signature="2488:3117" ph="{% if craft.commerce.paymentMethods|length ...%}" />
+              <marker date="1519697032900" expanded="true" signature="2898:3082" ph="{% for id,name in craft.commerce.paymentMethods ...%}" />
+              <marker date="1519697032900" expanded="true" signature="2986:3041" ph="{% if id == cart.paymentMethod.id ...%}" />
+              <marker date="1519697032900" expanded="true" signature="3277:3326" ph="{% set statuses = craft.commerce.orderStatuses ...%}" />
+              <marker date="1519697032900" expanded="true" signature="3434:3546" ph="{% for taxCategory in craft.commerce.taxCategories ...%}" />
+              <marker date="1519697032900" expanded="true" signature="3702:3796" ph="{% for type in craft.commerce.productTypes ...%}" />
+              <marker date="1519697032900" expanded="true" signature="3949:4050" ph="{% for status in craft.commerce.orderStatuses ...%}" />
+              <marker date="1519697032900" expanded="true" signature="4150:4258" ph="{% for discount in craft.commerce.discounts ...%}" />
+              <marker date="1519697032900" expanded="true" signature="4367:4432" ph="{% set discount = craft.commerce.getDiscountByCode('HALFOFF')&#10; ...%}" />
+              <marker date="1519697032900" expanded="true" signature="4433:4511" ph="{% if discount ...%}" />
+              <marker date="1519697032900" expanded="true" signature="4603:4695" ph="{% for sale in craft.commerce.sales ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/changes-in-commerce-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="828">
+            <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/product-types.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1519696905323" expanded="true" signature="750:806" ph="{% set clothes = craft.products.type('clothes').all() ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/untitled.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="667">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="87">
+            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/craft-products.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="575">
+            <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <folding>
+              <marker date="1519697854961" expanded="true" signature="229:285" ph="{% set products = craft.products.type('normal').find() ...%}" />
+              <marker date="1519697854961" expanded="true" signature="287:437" ph="{% for product in products ...%}" />
+              <marker date="1519697854961" expanded="true" signature="319:424" ph="{% for variant in product.variants ...%}" />
+              <marker date="1519697854961" expanded="true" signature="1838:1917" ph="{% set products = craft.products.type('tshirt').hasVariant({ color: 'red' }) ...%}" />
+              <marker date="1519697854961" expanded="true" signature="2301:2381" ph="{% set products = craft.products({&#10;  hasVariant: {&#10;    hasStock: true&#10;  },&#10;}) ...%}" />
+              <marker date="1519697854961" expanded="true" signature="2527:2584" ph="{% set products = craft.products({&#10;  hasSales: true&#10;}) ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/craft-variants.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+            <folding>
+              <marker date="1519697874195" expanded="true" signature="373:423" ph="{% set variants = craft.variants.id(8376).first() ...%}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/customer-model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="327">
+            <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/payment-gateways.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/server-requirements.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="124" lean-forward="false" selection-start-line="2" selection-start-column="124" selection-end-line="2" selection-end-column="124" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
