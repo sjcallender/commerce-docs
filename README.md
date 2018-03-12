@@ -29,6 +29,7 @@ Craft Commerce 2 Documentation
 - [Custom Order Statuses](en/custom-order-statuses.md)
 - [Order Status Emails](en/order-status-emails.md)
 - [Payment Currencies](en/payment-currencies.md)
+- [Subscriptions](en/subscriptions.md)
 
 ## Payment Gateways
 
