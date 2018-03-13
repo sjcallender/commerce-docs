@@ -57,7 +57,8 @@ Craft Commerce 2 Documentation
   - [Country Model](en/country-model.md)
   - [State Model](en/state-model.md)
 - [Customer Model](en/customer-model.md)
-- [Payment Form Model](en/payment-form-model.md)
+- [Payment Form Models](en/payment-form-models.md)
+- [Subscription Models](en/subscription-models.md)
 
 ## Developers
 
@@ -75,6 +76,9 @@ Craft Commerce 2 Documentation
 - [Update Cart Addresses](en/update-cart-addresses.md)
 - [Customer Address Management](en/customer-address-management.md)
 - [Twig Filters](en/twig-filters.md)
+- [Making Payments](en/making-payments.md)
+- [Saving Payment Sources](en/saving-payment-sources.md)
+- [Subsription templates](en/subscription-templates.md)
 
 ## Fields
 
