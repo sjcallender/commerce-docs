@@ -78,7 +78,7 @@ Craft Commerce 2 Documentation
 - [Twig Filters](en/twig-filters.md)
 - [Making Payments](en/making-payments.md)
 - [Saving Payment Sources](en/saving-payment-sources.md)
-- [Subsription templates](en/subscription-templates.md)
+- [Subscription templates](en/subscription-templates.md)
 
 ## Fields
 
