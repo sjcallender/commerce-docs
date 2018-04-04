@@ -34,6 +34,7 @@ Craft Commerce 2 Documentation
 ## Payment Gateways
 
 - [Payment Gateways](en/payment-gateways.md)
+- [Gateway Config](en/gateways-config.md)
 
 ## Getting Elements
 
