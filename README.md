@@ -64,10 +64,8 @@ Craft Commerce 2 Documentation
 ## Developers
 
 - [Extendability](en/extendability.md)
-- [Events Reference](en/events-reference.md)
 - [Purchasables](en/purchasables.md)
 - [Adjusters](en/adjusters.md)
-- [Hooks Reference](en/hooks-reference.md)
 - [Shipping Methods](en/shipping-methods.md)
 
 ## Template guides
