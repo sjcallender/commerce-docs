@@ -71,7 +71,7 @@ Craft Commerce 2 Documentation
 ## Template guides
 
 - [Available Variables](en/available-variables.md)
-- [Add to Cart](en/add-to-cart.md)
+- [Addding to and Updating the Cart](en/adding-to-and-updating-the-cart.md)
 - [Update Cart Addresses](en/update-cart-addresses.md)
 - [Customer Address Management](en/customer-address-management.md)
 - [Twig Filters](en/twig-filters.md)
