@@ -169,6 +169,20 @@ The transactions on this order.
 
 The current message saved when the current order status was set.
 
+### gatewayId
+
+The ID of the gateway used on this order.
+
+Use `gatewayId` to display the gateway's name:
+
+```
+{% for id,name in craft.commerce.gateways.allGateways %}
+  {% if id == order.gatewayId %}
+    {{ name }}
+  {% endif %}
+{% endfor %}
+```
+
 ## Methods
 
 ### getPdfUrl($option = '')
